@@ -1,10 +1,10 @@
 :root {
   --rust-orange: #d35400;
   --brand-green: #27ae60;
-  --text-dark: #2c3e50;
+  --text-dark: #99973c;
   --bg-cream: #fffdf9;
-  --card-border: #f0a14d;
-  --shadow-soft: 0 6px 18px rgba(0, 0, 0, 0.08);
+  --card-border: #edd415;
+  --shadow-soft: 0 6px 18px rgba(181, 124, 38,0.8);
 }
 
 /* =========================
@@ -50,7 +50,7 @@ ul li {
   justify-content: space-between;
   align-items: center;
   padding: 14px 24px;
-  background: #222;
+  background: #4f321e;
   border-bottom: 2px solid var(--rust-orange);
   box-shadow: var(--shadow-soft);
 }
