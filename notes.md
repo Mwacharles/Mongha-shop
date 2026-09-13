@@ -65,3 +65,31 @@ If you are looking to replicate this look for your own business stationery, you 
 ## Pricing
 - Total: KES 15,000
 - Deposit:0
+
+
+
+     - <section id="contact">
+      -  <h2>Contact Us</h2>
+       - <div class="contact-form-container">
+       -   <iframe
+        -    src="https://docs.google.com/forms/d/e/1FAIpQLScsRNmr_TGCU6QpttJU5ZNcuKXmr8sTwErBcq2kzIJF3vjweg/viewform?embedded=true"
+          -  width="640"
+          -  height="685"
+          -  frameborder="0"
+           - marginheight="0"
+           - marginwidth="0"
+           - >Loading…</iframe
+        -  >
+       - </div>
+      -  <a
+        -  href="https://wa.me/254715131772?text=Hello%20Mongha%20Agencies,%20I%20would%20like%20to%20request%20a%20quotation..."
+       -   class="whatsapp-float"
+        -  target="_blank"
+         - aria-label="Chat with us on WhatsApp"
+       - >
+         - <img
+           - src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+           - alt="WhatsApp icon"
+         - />
+       - </a>
+     - </section>
