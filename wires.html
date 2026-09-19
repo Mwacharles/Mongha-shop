@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Electrical Wires | Mongha Electricals</title>
+    <meta
+      name="description"
+      content="Shop quality electrical wires and cables in Nairobi, including copper, flexible, armoured, solar, Ethernet, and telephone cables."
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="Images/MonghaLogo.png" />
+    <meta property="og:title" content="Electrical Wires | Mongha Electricals" />
+    <meta
+      property="og:description"
+      content="Quality electrical wires and cables with fast delivery in Nairobi."
+    />
+    <meta property="og:image" content="Images/MonghaLogo.png" />
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -23,7 +34,7 @@
   </head>
   <body>
     <nav class="site-nav">
-      <a href="#home" class="brand" aria-label="Mongha Electricals home">
+      <a href="index.html" class="brand" aria-label="Mongha Electricals home">
         <img
           src="Images/MonghaLogo.png"
           alt="Mongha Electricals logo"
@@ -34,22 +45,23 @@
         <span class="brand-text">MONGHA ELECTRICALS</span>
       </a>
       <ul class="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/#about">About</a></li>
-        <li><a href="/#services">Services</a></li>
-        <li><a href="/#contact">Contact</a></li>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Products</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </nav>
-    <header class="hero">
+    <header id="home" class="hero">
       <h1>Electrical Wires & Cables</h1>
-      <p>Browse our selection of quality wires for all your projects.</p>
+      <p>
+        Reliable cable solutions for residential, commercial, and project work.
+      </p>
     </header>
 
     <section class="products">
       <div class="grid">
-        <!-- Card template -->
         <div class="card">
-          <img src="Images/red.jpg" alt="Wire product 1" />
+          <img src="Images/red.jpg" alt="Single core copper wire" />
           <h3>Single Core Copper Wire</h3>
           <p>Durable copper wire ideal for domestic wiring.</p>
           <a
@@ -61,7 +73,10 @@
         </div>
 
         <div class="card">
-          <img src="Images/multistrand 1.png" alt="Wire product 2" />
+          <img
+            src="Images/multistrand 1.png"
+            alt="Multi-strand flexible wire"
+          />
           <h3>Multi-Strand Flexible Wire</h3>
           <p>Flexible and strong, perfect for appliances.</p>
           <a
@@ -73,7 +88,7 @@
         </div>
 
         <div class="card">
-          <img src="Images/multistrand.png" alt="Wire product 3" />
+          <img src="Images/multistrand.png" alt="Armoured cable" />
           <h3>Armoured Cable</h3>
           <p>Heavy-duty cable for outdoor and industrial use.</p>
           <a
@@ -85,7 +100,7 @@
         </div>
 
         <div class="card">
-          <img src="Images/tv-cable.png" alt="Wire product 4" />
+          <img src="Images/tv-cable.png" alt="Coaxial cable" />
           <h3>Coaxial Cable</h3>
           <p>Reliable cable for TV and internet connections.</p>
           <a
@@ -97,7 +112,7 @@
         </div>
 
         <div class="card">
-          <img src="Images/ethernet.png" alt="Wire product 5" />
+          <img src="Images/ethernet.png" alt="Cat6 Ethernet cable" />
           <h3>Cat6 Ethernet Cable</h3>
           <p>High-speed networking cable for offices and homes.</p>
           <a
@@ -109,7 +124,7 @@
         </div>
 
         <div class="card">
-          <img src="Images/speaker-wire.png" alt="Wire product 6" />
+          <img src="Images/speaker-wire.png" alt="Speaker wire" />
           <h3>Speaker Wire</h3>
           <p>Clear sound transmission for audio systems.</p>
           <a
@@ -121,7 +136,7 @@
         </div>
 
         <div class="card">
-          <img src="Images/solar-cable.png" alt="Wire product 7" />
+          <img src="Images/solar-cable.png" alt="Solar cable" />
           <h3>Solar Cable</h3>
           <p>UV-resistant cable for solar installations.</p>
           <a
@@ -135,7 +150,7 @@
         <div class="card">
           <img
             src="Images/telephone-cable-modular 1.png"
-            alt="Wire product 8"
+            alt="Telephone cable"
           />
           <h3>Telephone Cable</h3>
           <p>Standard cable for landline connections.</p>
@@ -148,7 +163,7 @@
         </div>
 
         <div class="card">
-          <img src="Images/heat-cable 1.png" alt="Wire product 9" />
+          <img src="Images/heat-cable 1.png" alt="Heat resistant wire" />
           <h3>Heat Resistant Wire</h3>
           <p>Safe wiring for high-temperature environments.</p>
           <a
@@ -160,7 +175,7 @@
         </div>
 
         <div class="card">
-          <img src="Images/twisted pair 1.png" alt="Wire product 10" />
+          <img src="Images/twisted pair 1.png" alt="Twisted pair cable" />
           <h3>Twisted Pair Cable</h3>
           <p>Reliable cable for data transmission.</p>
           <a
@@ -172,37 +187,31 @@
         </div>
       </div>
     </section>
-  </body>
-  <footer class="site-footer">
-    <div class="footer-container">
-      <p>&copy; 2026 Mongha Electricals. All rights reserved.</p>
-      <ul class="footer-links">
-        <li><a href="/#about">About</a></li>
-        <li><a href="/#services">Services</a></li>
-        <li><a href="/#contact">Contact</a></li>
-      </ul>
-      <p>
-        Follow us:
-        <a href="https://www.facebook.com/share/1LeoCNh96y/">Facebook</a>
-      </p>
-      <button id="back-to-top">↑ Back to Top</button>
-
-      <!-- Floating logo -->
-      <div class="footer-logo">
+    <footer class="site-footer">
+      <div class="footer-container">
+        <p>&copy; 2026 Mongha Electricals. All rights reserved.</p>
         <p>
-          <strong>Powered by </strong>
-          <a href="https://wecom.10001mb.com/?i=1" target="_blank">
-            <img src="Images/welogos.png" alt="Web Design Company Logo" />
-          </a>
+          Follow us:
+          <a href="https://www.facebook.com/share/1LeoCNh96y/">Facebook</a>
         </p>
-      </div>
-    </div>
-  </footer>
+        <button id="back-to-top">↑ Back to Top</button>
 
-  <script>
-    // Smooth scroll back to top
-    document.getElementById("back-to-top").addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-  </script>
+        <div class="footer-logo">
+          <p>
+            <strong>Powered by </strong>
+            <a href="https://wecom.10001mb.com/?i=1" target="_blank">
+              <img src="Images/welogos.png" alt="Web Design Company Logo" />
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("back-to-top").addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
 </html>
